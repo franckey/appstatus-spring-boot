@@ -14,4 +14,4 @@
     # build image
     docker build -t sample-app .
     # create and run the container
-    docker run --name hello-world -p 8086:8086 sample-app 
+    docker run --name hello-world -p 8080:8080 sample-app 
